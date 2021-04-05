@@ -1,0 +1,23 @@
+body {
+    font-family: 'Kanit', sans-serif;
+}
+
+h1 {
+    color: #6011fd;
+}
+
+p {
+    margin: -10px 0px 0px 0px;
+}
+
+strong {
+    background: green;
+}
+
+#it {
+    color: white;
+}
+
+.bg-yelloe {
+    background: yellow;
+}
