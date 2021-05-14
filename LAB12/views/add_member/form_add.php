@@ -15,7 +15,7 @@
         <label for="dob">Date of Brith</label>
         <input type="date" id="dob" name="dob" class="form-control">
     </div>
-    <button type="submit" class="btn btn-primary"> สมัครสมาชิก </button>
+    <button type="submit" class="btn btn-primary">สมัครสมาชิก</button>
     <button type="reset" class="btn btn-danger">ยกเลิก </button>
 </form>
 
@@ -33,7 +33,7 @@
             },
             success: function(msg) {
                 console.log(msg);
-                form.fin(":reset").trigger("click");
+                form.find(":reset").trigger("click");
                 Swal.fire(
                     'เพิ่มข้อมูล',
                     'ดำเนินการสมบูรณ์',
